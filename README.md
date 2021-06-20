@@ -12,6 +12,11 @@ Resilience4j provides higher-order functions (decorators) to enhance any functio
 $ ./mvnw clean build
 ```
 
+### Run the app
+```
+$ java -jar target/demo-0.0.1-SNAPSHOT.jar
+```
+
 ### yaml config 
 ```yaml
 resilience4j.circuitbreaker:
@@ -55,7 +60,7 @@ resilience4j.thread-pool-bulkhead:
       coreThreadPoolSize: 2
       queueCapacity: 2
   instances:
-#    backendA:
+#   service_2:
 #      baseConfig: default
     service_1:
       maxThreadPoolSize: 2
