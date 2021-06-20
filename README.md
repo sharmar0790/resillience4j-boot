@@ -12,7 +12,7 @@ Resilience4j provides higher-order functions (decorators) to enhance any functio
 $ ./mvnw clean build
 ```
 
-### yaml config looks like 
+### yaml config 
 ```yaml
 resilience4j.circuitbreaker:
   configs:
@@ -68,5 +68,5 @@ resilience4j.thread-pool-bulkhead:
 The following guides illustrate how to use some features concretely:
 
 * [Resillience 4j getting started](https://resilience4j.readme.io/docs/getting-started-3)
-* [Resillinece 4j Spring boot exmaple](https://github.com/resilience4j/resilience4j-spring-boot2-demo)
+* [Resillinece 4j Spring boot example](https://github.com/resilience4j/resilience4j-spring-boot2-demo)
 
